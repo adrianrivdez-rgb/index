@@ -1,0 +1,84 @@
+body, html{
+    background-image: linear-gradient(to left, gray, rgb(146, 17, 221), rgb(30, 154, 211), rgb(12, 3, 131));
+    color: black;
+    animation: arcoiris infinite 5s ease-in-out;
+
+}
+
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 55px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+main{
+   margin-top: 30px;   
+}
+
+
+.contenido{
+   flex: auto;
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color:  black;
+}
+
+.caja, img{
+      width: 123x;  height: 234px;
+      border-radius: 22px;
+      border: 3px solid orange;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 22px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor{
+    background-color: #ff9a9e;
+    padding: 44px;
+    margin: 22px 111px;
+    display: flex;
+    gap:44px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 22px;
+}
+
+.galeria{
+    padding: 44px;
+    background-color: rgba(255,255,255,0.1);
+    margin: 33px 222px;
+    border-radius: 33px;           
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.pie{
+    text-align: center;
+    margin: 22px;
+}
+
+@keyframes arcoiris{
+   from{filter: hue-rotate(0deg); }          
+   to  {filter: hue-rotate(360deg); }
+}
+

@@ -1,0 +1,78 @@
+body, html{
+    background-image: linear-gradient(to top, #ffd60a, #003566, #06d6a0, #ff5400);
+    color: black;
+    
+}
+
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+main{
+   margin-top: 50px;   
+}
+
+
+.contenido{
+   flex: auto;
+
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    color:  red;
+}
+
+.caja, img{
+      width: 450px;  height: 200px;
+      border-radius: 33px;
+      border: 7px solid #9e0059;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 22px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor{
+    background-color: #ff9a9e;
+    padding: 44px;
+    margin: 22px 111px;
+    display: flex;
+    gap:44px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 22px;
+}
+
+.galeria{
+    padding: 44px;
+    background-color: rgba(255,255,255,0.1);
+    margin: 22px 111px;
+    border-radius: 22px;           
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.pie{
+    text-align: center;
+    margin: 22px;
+}
+
